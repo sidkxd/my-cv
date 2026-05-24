@@ -53,7 +53,7 @@
 %other packages for formatting
 \RequirePackage{color}
 \RequirePackage{graphicx}
-\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[dvipsnames]{xcolor}
 \usepackage[scale=0.9]{geometry}
 
 %tabularx environment
@@ -114,7 +114,7 @@
     \textbf{#1} & \hfill &  #2 \\[3.75pt]
     \end{tabularx}
     \begin{minipage}[t]{\linewidth}
-    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt,label=--]
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt,label=\textbullet]
     }
     {
     \end{itemize}
@@ -143,75 +143,46 @@
 
 \begin{tabularx}{\linewidth}{@{} C @{}}
 \Huge{Your Name} \\[7.5pt]
-\href{https://github.com/username}{\raisebox{-0.05\height}\faGithub\ username} \ $|$ \ 
-\href{https://linkedin.com/in/username}{\raisebox{-0.05\height}\faLinkedin\ username} \ $|$ \ 
-\href{https://mysite.com}{\raisebox{-0.05\height}\faGlobe \ mysite.com} \ $|$ \ 
-\href{mailto:email@mysite.com}{\raisebox{-0.05\height}\faEnvelope \ email@mysite.com} \ $|$ \ 
-\href{tel:+000000000000}{\raisebox{-0.05\height}\faMobile \ +00.00.000.000} \\
+\href{https://github.com/sidkxd}{\raisebox{-0.05\height}\faGithub\ sidkxd} \ $|$ \ 
+\href{https://linkedin.com/in/sidkrishnan}{\raisebox{-0.05\height}\faLinkedin\ sidkrishnan} \ $|$ \ 
+\href{mailto:sidkxd@gmail.com}{\raisebox{-0.05\height}\faEnvelope \ sidkxd@gmail.com} \ $|$ \ 
+\href{tel:+917710829845}{\raisebox{-0.05\height}\faMobile \ +91-7710829845} \\
 \end{tabularx}
 
 %----------------------------------------------------------------------------------------
 % EXPERIENCE SECTIONS
 %----------------------------------------------------------------------------------------
-
-%Interests/ Keywords/ Summary
+%Summary
 \section{Summary}
-This CV can also be automatically compiled and published using GitHub Actions. For details, \href{https://github.com/jitinnair1/autoCV}{click here}.
-
+\noindent I am looking for opportunities in Cloud-related roles. I have previously worked on technologies like VMware vSphere and Linux System Administration. I also have hands-on experience with Cloud tools like AWS, Azure, and Docker. I have completed my postgraduate studies in MCA and undergraduate studies in B.Sc.IT.
 %Experience
 \section{Work Experience}
-
-\begin{jobshort}{Designation}{Jan 2021 - present}
-long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width
-\end{jobshort}
-
-
-\begin{joblong}{Designation}{Mar 2019 - Jan 2021}
-\item long long line of blah blah that will wrap when the table fills the column width
-\item again, long long line of blah blah that will wrap when the table fills the column width but this time even more long long line of blah blah. again, long long line of blah blah that will wrap when the table fills the column width but this time even more long long line of blah blah
+\begin{joblong}{Cloud Support | Tata Consultancy Services}{Dec 2021 -- Jul 2023}
+\item Managed compute, storage, and network resources for virtual machines, including VM provisioning, configuration, client software installation, system hardening, infrastructure monitoring, and recovery operations using VMware vSphere.
+\item Monitored and troubleshot infrastructure performance issues and alerts using Zabbix and VMware dashboards to ensure system stability, availability, and operational efficiency.
+\item Provided Level 1 support for server and compute infrastructure by handling service requests (SR) and change requests (CR) in compliance with SLA targets and escalation procedures.
+\item Performed server firmware upgrades following maintenance best practices to optimize system performance and minimize downtime during scheduled maintenance windows.
+\item Generated daily operational reports, prepared root cause analysis (RCA) documentation for incidents, and maintained cloud infrastructure inventory records.
 \end{joblong}
-  
 %Projects
 \section{Projects}
-
-\begin{tabularx}{\linewidth}{ @{}l r@{} }
-\textbf{Some Project} & \hfill \href{https://some-link.com}{Link to Demo} \\[3.75pt]
-\multicolumn{2}{@{}X@{}}{long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width}  \\
-\end{tabularx}
-
+\noindent\textbf{Text-Based Emotion Detection} \\[3.75pt]
+Developed a text-based emotion detection application using machine learning models trained on the GoEmotions dataset for multi-class emotion classification. Implemented data preprocessing and emotion mapping techniques to categorize 27 emotions into Ekman’s basic emotion classes, improving model accuracy and consistency. Designed and developed the frontend interface to enable real-time emotion prediction from user-provided English text.
 %----------------------------------------------------------------------------------------
 %	EDUCATION
 %----------------------------------------------------------------------------------------
 \section{Education}
-\begin{tabularx}{\linewidth}{@{}l X@{}}	
-2030 - present & PhD (Subject) at \textbf{University} \hfill \normalsize (GPA: 4.0/4.0) \\
-
-2023 - 2027 & Bachelor's Degree at \textbf{College} \hfill (GPA: 4.0/4.0) \\ 
-
-2022 & Class 12th Some Board \hfill  (Grades) \\
-
-2021 & Class 10th Some Board \hfill  (Grades) \\
-\end{tabularx}
-
-%----------------------------------------------------------------------------------------
-%	PUBLICATIONS
-%----------------------------------------------------------------------------------------
-\section{Publications}
-\begin{refsection}[citations.bib]
-\nocite{*}
-\printbibliography[heading=none]
-\end{refsection}
-
+\noindent\textbf{Master of Computer Applications} \hfill 2023 -- 2025 \\
+VES Institute of Technology \\[0.25cm]
+\noindent\textbf{Bachelor of Science in Information Technology} \hfill 2018 -- 2021 \\
+University of Mumbai
 %----------------------------------------------------------------------------------------
 %	SKILLS
 %----------------------------------------------------------------------------------------
 \section{Skills}
-\begin{tabularx}{\linewidth}{@{}l X@{}}
-Some Skills &  \normalsize{This, That, Some of this and that etc.}\\
-Some More Skills  &  \normalsize{Also some more of this, Some more that, And some of this and that etc.}\\  
-\end{tabularx}
-
+\noindent\textbf{Programming Languages:} Python, Java, C, C++. \\[3.75pt]
+\noindent\textbf{Operating Systems:} Windows, Linux. \\[3.75pt]
+\noindent\textbf{Technologies/Frameworks:} AWS, Azure, Jenkins, Docker, Spring, VMware vSphere, MySQL.
 \vfill
 \center{\footnotesize Last updated: \today}
-
 \end{document}
